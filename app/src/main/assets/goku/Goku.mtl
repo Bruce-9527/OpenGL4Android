@@ -1,0 +1,123 @@
+# Blender MTL File: 'Goku.blend'
+# Material Count: 11
+newmtl arms.png
+Ns 96.078431
+Kd 0.8 0.8 0.8
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd arms.png
+
+
+newmtl belt.png
+Ns 96.078431
+Kd 0.8 0.8 0.8
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd belt.png
+
+
+newmtl eyes_1.png
+Ns 96.078431
+Kd 0.8 0.8 0.8
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd eyes_1.png
+
+
+newmtl face.png
+Ns 96.078431
+Kd 0.8 0.8 0.8
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd face.png
+
+
+newmtl hair.png
+Ns 96.078431
+Kd 0.8 0.8 0.8
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd hair.png
+
+
+newmtl hands.png
+Ns 96.078431
+Kd 0.8 0.8 0.8
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd hands.png
+
+
+newmtl mouth.png
+Ns 96.078431
+Kd 0.8 0.8 0.8
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd mouth.png
+
+
+newmtl pants.png
+Ns 96.078431
+Kd 0.8 0.8 0.8
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd pants.png
+
+
+newmtl shirt.png
+Ns 96.078431
+Kd 0.8 0.8 0.8
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd shirt.png
+
+
+newmtl shoes.png
+Ns 96.078431
+Kd 0.8 0.8 0.8
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd shoes.png
+
+
+newmtl sole.png
+Ns 96.078431
+Kd 0.8 0.8 0.8
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd sole.png
+
+

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">OpenGL4Android</string>
+    <string name="title_activity_cube">CubeActivity</string>
+</resources>
