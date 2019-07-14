@@ -7,7 +7,7 @@ import android.text.TextUtils;
 import com.mxnavi.opengl4android.base.BitmapUtil;
 import com.mxnavi.opengl4android.base.GLEntity;
 import com.mxnavi.opengl4android.base.GLObjColorEntity;
-import com.mxnavi.opengl4android.base.GLObject;
+import com.mxnavi.opengl4android.base.GLGroup;
 import com.mxnavi.opengl4android.base.MatrixState;
 import com.mxnavi.opengl4android.base.ObjInfo;
 import com.mxnavi.opengl4android.base.ObjLoaderUtil;
@@ -18,7 +18,7 @@ import java.util.ArrayList;
 /**
  *
  */
-public class GokuGroup extends GLObject {
+public class GokuGroup extends GLGroup {
     private static final String TAG = GokuGroup.class.getSimpleName();
 
 
@@ -27,9 +27,6 @@ public class GokuGroup extends GLObject {
 
     public GokuGroup(PlaneGlSurfaceView scene) {
         super(scene);
-        /**
-         * ----勋章---
-         */
         try {
             objDatas = ObjLoaderUtil.load("redcar.obj", scene.getResources());
             init();

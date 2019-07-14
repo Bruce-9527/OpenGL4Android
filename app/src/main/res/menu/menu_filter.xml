@@ -8,9 +8,6 @@
     <item
         android:id="@+id/cube"
         android:title="正方体" />
-    <item
-        android:id="@+id/cone"
-        android:title="圆锥体" />
 
     <item
         android:id="@+id/cylinder"

@@ -7,10 +7,10 @@ import com.mxnavi.opengl4android.plane.PlaneGlSurfaceView;
 /**
  * 基础的obj实体类
  *
- * @author xiaxl1
+ * @author xuebb
  */
-public class GLObject {
-    private static final String TAG = "GLObject";
+public class GLGroup {
+    private static final String TAG = "GLGroup";
 
     //####################上下文对象######################
     /**
@@ -23,7 +23,7 @@ public class GLObject {
      *
      * @param scene
      */
-    public GLObject(PlaneGlSurfaceView scene) {
+    public GLGroup(PlaneGlSurfaceView scene) {
         this.mBaseScene = scene;
 
     }
@@ -94,7 +94,6 @@ public class GLObject {
      * 绘制方法
      */
     public void onDraw(MatrixState matrixState) {
-        // ---运行动画---
 
     }
 

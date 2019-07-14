@@ -48,9 +48,6 @@ public class CubeActivity extends AppCompatActivity {
                 // 正方体
                 renderer.setShape(new Cube());
                 break;
-            case R.id.cone:
-                // 圆锥体
-                break;
             case R.id.cylinder:
                 // 圆柱体
                 renderer.setShape(new Cylinder(glSurfaceView));

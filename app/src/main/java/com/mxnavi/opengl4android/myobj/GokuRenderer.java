@@ -18,13 +18,11 @@ import javax.microedition.khronos.opengles.GL10;
 /**
  * 场景的渲染器
  *
- * @author xiaxl1
+ * @author xuebb
  */
 public class GokuRenderer implements GLSurfaceView.Renderer {
 
     private static final String TAG = "GokuRenderer";
-    // obj数据
-    ArrayList<ObjInfo> mObjList;
     /**
      * UI
      */
@@ -49,7 +47,7 @@ public class GokuRenderer implements GLSurfaceView.Renderer {
         GLES20.glClear(GLES20.GL_DEPTH_BUFFER_BIT | GLES20.GL_COLOR_BUFFER_BIT);
         // 设置屏幕背景色RGBA
         /**
-         * 绘制地球
+         * 绘制物体
          */
         matrixState.pushMatrix();
         mSpriteGroup.onDraw(matrixState);
@@ -115,8 +113,12 @@ public class GokuRenderer implements GLSurfaceView.Renderer {
         public void onTouchEvent(float dx, float dy) {
             float yAngle = mSpriteGroup.getSpriteAngleY();
             yAngle += dx * TOUCH_SCALE_FACTOR;
-            Log.v("XBB", "yAngle," + yAngle);
             mSpriteGroup.setSpriteAngleY(yAngle);
+
+//            float xAngle = mSpriteGroup.getSpriteAngleX();
+//            xAngle += dy * TOUCH_SCALE_FACTOR;
+//            mSpriteGroup.setSpriteAngleX(xAngle);
+
             mGLSurfaceView.requestRender();//重绘画面
         }
     };
